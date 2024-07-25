@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(HelloWorld)
+set (CMAKE_C_COMPILER "J:/APP/w64devkit/bin/gcc.exe")
+set (CMAKE_CXX_COMPILER "J:/APP/w64devkit/bin/g++.exe")
+set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}../output)
+include_directories(add_func)
+add_executable(result main/hello_cmake.cpp add_func/add.cpp)

@@ -1,0 +1,565 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: J:/APP/w64devkit/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        J:/AllProjects/C++/cmake_learning/build/CMakeFiles/3.30.1/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: J:/APP/w64devkit/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        J:/AllProjects/C++/cmake_learning/build/CMakeFiles/3.30.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-rqa9gc"
+      binary: "J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-rqa9gc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-rqa9gc'
+        
+        Run Build Command(s): J:/APP/CMake/bin/cmake.exe -E env VERBOSE=1 J:/APP/w64devkit/bin/make.exe -f Makefile cmTC_a4333/fast
+        J:/APP/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_a4333.dir/build.make CMakeFiles/cmTC_a4333.dir/build
+        make[1]: Entering directory 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-rqa9gc'
+        Building C object CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj
+        J:/APP/w64devkit/bin/gcc.exe   -v -o CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj -c J:/APP/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=J:/APP/w64devkit/bin/gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-14.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4333.dir/'
+         J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1.exe -quiet -v -iprefix J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -isysroot J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -D_REENTRANT J:/APP/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a4333.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\proto\\AppData\\Local\\Temp\\cc9sQtS9.s
+        GNU C17 (GCC) version 14.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include"
+        ignoring nonexistent directory "J:/APP/w64devkit/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include"
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed"
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "J:/APP/w64devkit/bin/../x86_64-w64-mingw32/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e96e239b3afd07cf3283644045fbac32
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4333.dir/'
+         as -v -o CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj C:\\Users\\proto\\AppData\\Local\\Temp\\cc9sQtS9.s
+        GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42
+        COMPILER_PATH=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/;J:/APP/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/;J:/APP/w64devkit/bin/../lib/gcc/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_a4333.exe
+        J:/APP/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_a4333.dir/objects.a
+        J:/APP/w64devkit/bin/ar.exe qc CMakeFiles/cmTC_a4333.dir/objects.a @CMakeFiles/cmTC_a4333.dir/objects1.rsp
+        J:/APP/w64devkit/bin/gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_a4333.dir/objects.a -Wl,--no-whole-archive -o cmTC_a4333.exe -Wl,--out-implib,libcmTC_a4333.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=J:/APP/w64devkit/bin/gcc.exe
+        COLLECT_LTO_WRAPPER=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-14.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/;J:/APP/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/;J:/APP/w64devkit/bin/../lib/gcc/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4333.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4333.'
+         J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe --sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_a4333.exe J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LJ:/APP/w64devkit/bin/../lib/gcc -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_a4333.dir/objects.a --no-whole-archive --out-implib libcmTC_a4333.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        collect2 version 14.1.0
+        J:\\APP\\w64devkit\\bin/ld.exe --sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_a4333.exe J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LJ:/APP/w64devkit/bin/../lib/gcc -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_a4333.dir/objects.a --no-whole-archive --out-implib libcmTC_a4333.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4333.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4333.'
+        make[1]: Leaving directory 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-rqa9gc'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include]
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed]
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include]
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed]
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include] ==> [J:/APP/w64devkit/x86_64-w64-mingw32/include]
+        implicit include dirs: [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed;J:/APP/w64devkit/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-rqa9gc']
+        ignore line: []
+        ignore line: [Run Build Command(s): J:/APP/CMake/bin/cmake.exe -E env VERBOSE=1 J:/APP/w64devkit/bin/make.exe -f Makefile cmTC_a4333/fast]
+        ignore line: [J:/APP/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_a4333.dir/build.make CMakeFiles/cmTC_a4333.dir/build]
+        ignore line: [make[1]: Entering directory 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-rqa9gc']
+        ignore line: [Building C object CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [J:/APP/w64devkit/bin/gcc.exe   -v -o CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj -c J:/APP/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=J:/APP/w64devkit/bin/gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-14.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4333.dir/']
+        ignore line: [ J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1.exe -quiet -v -iprefix J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -isysroot J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -D_REENTRANT J:/APP/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a4333.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\proto\\AppData\\Local\\Temp\\cc9sQtS9.s]
+        ignore line: [GNU C17 (GCC) version 14.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include"]
+        ignore line: [ignoring nonexistent directory "J:/APP/w64devkit/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "J:/APP/w64devkit/bin/../x86_64-w64-mingw32/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e96e239b3afd07cf3283644045fbac32]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4333.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj C:\\Users\\proto\\AppData\\Local\\Temp\\cc9sQtS9.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42]
+        ignore line: [COMPILER_PATH=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/]
+        ignore line: [J:/APP/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a4333.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_a4333.exe]
+        ignore line: [J:/APP/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_a4333.dir/objects.a]
+        ignore line: [J:/APP/w64devkit/bin/ar.exe qc CMakeFiles/cmTC_a4333.dir/objects.a @CMakeFiles/cmTC_a4333.dir/objects1.rsp]
+        ignore line: [J:/APP/w64devkit/bin/gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_a4333.dir/objects.a -Wl --no-whole-archive -o cmTC_a4333.exe -Wl --out-implib libcmTC_a4333.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=J:/APP/w64devkit/bin/gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-14.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/]
+        ignore line: [J:/APP/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4333.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a4333.']
+        link line: [ J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe --sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_a4333.exe J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LJ:/APP/w64devkit/bin/../lib/gcc -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_a4333.dir/objects.a --no-whole-archive --out-implib libcmTC_a4333.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+          arg [J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe] ==> ignore
+          arg [--sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_a4333.exe] ==> ignore
+          arg [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o] ==> obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc] ==> dir [J:/APP/w64devkit/bin/../lib/gcc]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_a4333.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_a4333.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o] ==> obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        ignore line: [collect2 version 14.1.0]
+        ignore line: [J:\\APP\\w64devkit\\bin/ld.exe --sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_a4333.exe J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LJ:/APP/w64devkit/bin/../lib/gcc -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_a4333.dir/objects.a --no-whole-archive --out-implib libcmTC_a4333.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        linker tool for 'C': J:/APP/w64devkit/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [J:/APP/w64devkit/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o]
+        collapse obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc] ==> [J:/APP/w64devkit/lib/gcc]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [J:/APP/w64devkit/x86_64-w64-mingw32/lib]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib] ==> [J:/APP/w64devkit/lib]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib] ==> [J:/APP/w64devkit/x86_64-w64-mingw32/lib]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..] ==> [J:/APP/w64devkit/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [J:/APP/w64devkit/x86_64-w64-mingw32/lib/crt2.o;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        implicit dirs: [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0;J:/APP/w64devkit/lib/gcc;J:/APP/w64devkit/x86_64-w64-mingw32/lib;J:/APP/w64devkit/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "J:/APP/w64devkit/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.42
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-geb46a"
+      binary: "J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-geb46a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-geb46a'
+        
+        Run Build Command(s): J:/APP/CMake/bin/cmake.exe -E env VERBOSE=1 J:/APP/w64devkit/bin/make.exe -f Makefile cmTC_dfad9/fast
+        J:/APP/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_dfad9.dir/build.make CMakeFiles/cmTC_dfad9.dir/build
+        make[1]: Entering directory 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-geb46a'
+        Building CXX object CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj
+        J:/APP/w64devkit/bin/g++.exe   -v -o CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj -c J:/APP/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=J:/APP/w64devkit/bin/g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-14.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfad9.dir/'
+         J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -isysroot J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -D_REENTRANT J:/APP/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dfad9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\proto\\AppData\\Local\\Temp\\cckCxL4K.s
+        GNU C++17 (GCC) version 14.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++"
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward"
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include"
+        ignoring nonexistent directory "J:/APP/w64devkit/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include"
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed"
+        ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "J:/APP/w64devkit/bin/../x86_64-w64-mingw32/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed
+         J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 5c6eabb5c362c30f5dcfad8d7e99adc7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfad9.dir/'
+         as -v -o CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\proto\\AppData\\Local\\Temp\\cckCxL4K.s
+        GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42
+        COMPILER_PATH=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/;J:/APP/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/;J:/APP/w64devkit/bin/../lib/gcc/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_dfad9.exe
+        J:/APP/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_dfad9.dir/objects.a
+        J:/APP/w64devkit/bin/ar.exe qc CMakeFiles/cmTC_dfad9.dir/objects.a @CMakeFiles/cmTC_dfad9.dir/objects1.rsp
+        J:/APP/w64devkit/bin/g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_dfad9.dir/objects.a -Wl,--no-whole-archive -o cmTC_dfad9.exe -Wl,--out-implib,libcmTC_dfad9.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Using built-in specs.
+        COLLECT_GCC=J:/APP/w64devkit/bin/g++.exe
+        COLLECT_LTO_WRAPPER=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: /gcc-14.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c,c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/;J:/APP/w64devkit/bin/../libexec/gcc/
+        LIBRARY_PATH=J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/;J:/APP/w64devkit/bin/../lib/gcc/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/;J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfad9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfad9.'
+         J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe --sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_dfad9.exe J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LJ:/APP/w64devkit/bin/../lib/gcc -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_dfad9.dir/objects.a --no-whole-archive --out-implib libcmTC_dfad9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        collect2 version 14.1.0
+        J:\\APP\\w64devkit\\bin/ld.exe --sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_dfad9.exe J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LJ:/APP/w64devkit/bin/../lib/gcc -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_dfad9.dir/objects.a --no-whole-archive --out-implib libcmTC_dfad9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfad9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfad9.'
+        make[1]: Leaving directory 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-geb46a'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++]
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32]
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward]
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include]
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed]
+          add: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++]
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward]
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include]
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed]
+        collapse include dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include] ==> [J:/APP/w64devkit/x86_64-w64-mingw32/include]
+        implicit include dirs: [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed;J:/APP/w64devkit/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-geb46a']
+        ignore line: []
+        ignore line: [Run Build Command(s): J:/APP/CMake/bin/cmake.exe -E env VERBOSE=1 J:/APP/w64devkit/bin/make.exe -f Makefile cmTC_dfad9/fast]
+        ignore line: [J:/APP/w64devkit/bin/make.exe  -f CMakeFiles/cmTC_dfad9.dir/build.make CMakeFiles/cmTC_dfad9.dir/build]
+        ignore line: [make[1]: Entering directory 'J:/AllProjects/C++/cmake_learning/build/CMakeFiles/CMakeScratch/TryCompile-geb46a']
+        ignore line: [Building CXX object CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [J:/APP/w64devkit/bin/g++.exe   -v -o CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj -c J:/APP/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=J:/APP/w64devkit/bin/g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-14.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfad9.dir/']
+        ignore line: [ J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -isysroot J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -D_REENTRANT J:/APP/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_dfad9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\proto\\AppData\\Local\\Temp\\cckCxL4K.s]
+        ignore line: [GNU C++17 (GCC) version 14.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include"]
+        ignore line: [ignoring nonexistent directory "J:/APP/w64devkit/bin/../x86_64-w64-mingw32/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "J:/APP/w64devkit/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "J:/APP/w64devkit/bin/../x86_64-w64-mingw32/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed]
+        ignore line: [ J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 5c6eabb5c362c30f5dcfad8d7e99adc7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfad9.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\proto\\AppData\\Local\\Temp\\cckCxL4K.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.42]
+        ignore line: [COMPILER_PATH=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/]
+        ignore line: [J:/APP/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dfad9.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_dfad9.exe]
+        ignore line: [J:/APP/CMake/bin/cmake.exe -E rm -f CMakeFiles/cmTC_dfad9.dir/objects.a]
+        ignore line: [J:/APP/w64devkit/bin/ar.exe qc CMakeFiles/cmTC_dfad9.dir/objects.a @CMakeFiles/cmTC_dfad9.dir/objects1.rsp]
+        ignore line: [J:/APP/w64devkit/bin/g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_dfad9.dir/objects.a -Wl --no-whole-archive -o cmTC_dfad9.exe -Wl --out-implib libcmTC_dfad9.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=J:/APP/w64devkit/bin/g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: /gcc-14.1.0/configure --prefix=/w64devkit --with-sysroot=/w64devkit/x86_64-w64-mingw32 --with-native-system-header-dir=/include --target=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-static --disable-shared --with-pic --with-gmp-include=/deps/include --with-gmp-lib=/deps/lib --with-mpc-include=/deps/include --with-mpc-lib=/deps/lib --with-mpfr-include=/deps/include --with-mpfr-lib=/deps/lib --enable-languages=c c++ --enable-libgomp --enable-threads=posix --enable-version-specific-runtime-libs --disable-dependency-tracking --disable-lto --disable-multilib --disable-nls --disable-win32-registry --enable-mingw-wildcard CFLAGS_FOR_TARGET=-Os CXXFLAGS_FOR_TARGET=-Os LDFLAGS_FOR_TARGET=-s CFLAGS=-Os CXXFLAGS=-Os LDFLAGS=-s]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/]
+        ignore line: [J:/APP/w64devkit/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_dfad9.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dfad9.']
+        link line: [ J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe --sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_dfad9.exe J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LJ:/APP/w64devkit/bin/../lib/gcc -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_dfad9.dir/objects.a --no-whole-archive --out-implib libcmTC_dfad9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+          arg [J:/APP/w64devkit/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe] ==> ignore
+          arg [--sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_dfad9.exe] ==> ignore
+          arg [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o] ==> obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc] ==> dir [J:/APP/w64devkit/bin/../lib/gcc]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..] ==> dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_dfad9.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_dfad9.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o] ==> obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        ignore line: [collect2 version 14.1.0]
+        ignore line: [J:\\APP\\w64devkit\\bin/ld.exe --sysroot=J:/APP/w64devkit/bin/../x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_dfad9.exe J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LJ:/APP/w64devkit/bin/../lib/gcc -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LJ:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_dfad9.dir/objects.a --no-whole-archive --out-implib libcmTC_dfad9.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmingwex -lmsvcrt -lkernel32 J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        linker tool for 'CXX': J:/APP/w64devkit/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [J:/APP/w64devkit/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o]
+        collapse obj [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0] ==> [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc] ==> [J:/APP/w64devkit/lib/gcc]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [J:/APP/w64devkit/x86_64-w64-mingw32/lib]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib] ==> [J:/APP/w64devkit/lib]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib] ==> [J:/APP/w64devkit/x86_64-w64-mingw32/lib]
+        collapse library dir [J:/APP/w64devkit/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..] ==> [J:/APP/w64devkit/lib]
+        implicit libs: [stdc++;mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [J:/APP/w64devkit/x86_64-w64-mingw32/lib/crt2.o;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o;J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        implicit dirs: [J:/APP/w64devkit/lib/gcc/x86_64-w64-mingw32/14.1.0;J:/APP/w64devkit/lib/gcc;J:/APP/w64devkit/x86_64-w64-mingw32/lib;J:/APP/w64devkit/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "J:/APP/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "J:/APP/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "J:/APP/w64devkit/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.42
+...

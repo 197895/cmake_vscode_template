@@ -1,0 +1,14 @@
+[
+{
+  "directory": "J:/AllProjects/C++/cmake_learning/build",
+  "command": "J:/APP/w64devkit/bin/g++.exe  @CMakeFiles/result.dir/includes_CXX.rsp -g -o CMakeFiles/result.dir/main/hello_cmake.cpp.obj -c J:/AllProjects/C++/cmake_learning/main/hello_cmake.cpp",
+  "file": "J:/AllProjects/C++/cmake_learning/main/hello_cmake.cpp",
+  "output": "CMakeFiles/result.dir/main/hello_cmake.cpp.obj"
+},
+{
+  "directory": "J:/AllProjects/C++/cmake_learning/build",
+  "command": "J:/APP/w64devkit/bin/g++.exe  @CMakeFiles/result.dir/includes_CXX.rsp -g -o CMakeFiles/result.dir/add_func/add.cpp.obj -c J:/AllProjects/C++/cmake_learning/add_func/add.cpp",
+  "file": "J:/AllProjects/C++/cmake_learning/add_func/add.cpp",
+  "output": "CMakeFiles/result.dir/add_func/add.cpp.obj"
+}
+]
